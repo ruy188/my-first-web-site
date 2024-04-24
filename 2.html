@@ -3,11 +3,20 @@
 <head>
     <title>최인훈 - 길에 관한 명상</title>
     <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <script 
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+    <script src="daynight_button.js"></script>
+
 </head>
 
 <body>
     <h1><a href="index.html">광장</a></h1>
-    <ol>
+    <input type="button" value="night" 
+    onclick="
+        nightDayHandler(this);">
+    <ol class="container">
         <li><a href="1.html">광장</a></li>
         <li><a href="2.html">길에 관한 명상</a></li>
         <li><a href="3.html">1961 서문</a></li>
@@ -16,7 +25,8 @@
     <h2>길에 관한 명상</h2>
     <img src="path.jpg" width="300">
 
-    <h2>인간의 문제라는 것은,</h2>
+    <div class="content">
+    <h3><strong></strong>인간의 문제라는 것은,</strong></h3>
     성실하게 해결하려 하면 그럴수록 
     <br>어떤 상투적인 수단도 쓸모가 없어지는, 
     <br>그때 그 사람이 처음 부딪치는 문제가 된다. 
@@ -28,6 +38,7 @@
     <br>그럴 때 보통 자기라고 여겨오던 존재는 
     <br>실은 그림자에 지나지 않고 
     <br>진실한 자기는 어떤 신화적 존재라는 것을 깨닫게 된다.</p>
+</div>
 
 
 

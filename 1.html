@@ -3,11 +3,20 @@
 <head>
     <title>최인훈 - 광장</title>
     <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <script 
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+    <script src="daynight_button.js"></script>
+
 </head>
 
 <body>
     <h1><a href="index.html">광장</a></h1>
-    <ol>
+    <input type="button" value="night" 
+    onclick="
+        nightDayHandler(this);">
+    <ol class="container">
         <li><a href="1.html">광장</a></li>
         <li><a href="2.html">길에 관한 명상</a></li>
         <li><a href="3.html">1961 서문</a></li>
@@ -16,8 +25,8 @@
     <a href="https://namu.wiki/w/%EA%B4%91%EC%9E%A5(%EC%86%8C%EC%84%A4)"
     target="_blank" title="광장(소설) 나무위키">
     <h2>최인훈 - 광장</h2></a>
-
-    <p style = "margin-top:50px;">개인의 밀실이 광장과 맞뚫렸던 시절에, 
+    <div class="content">
+    <p >개인의 밀실이 광장과 맞뚫렸던 시절에, 
     <br>사람은 속은 편했다. 
     <br>광장만이 있고 밀실이 없었던 중들과 임금들의 시절에, 
     <br>세상은 아무 일 없었다.</p> 
@@ -26,6 +35,7 @@
     <br>괴로움이 비롯했다. 
     <br>그 속에 목숨을 묻고 싶은 광장을 끝내 찾지 못할 때, 
     <br>사람은 어떻게 해야 하는가?</strong></p>
+</div>
 
 
 </body>
