@@ -23,15 +23,15 @@ function nightDayHandler(self){
     var target = document.querySelector('body');
     if(self.value==='night'){
         Body.setBackgroundColor('black');
-        Body.setColor('white');
+        Body.setColor('rgb(191, 208, 220)');
         self.value='day';
     
         links.setColor('powderblue')
     }else{
-        Body.setBackgroundColor('white');
+        Body.setBackgroundColor('rgb(191, 208, 220)');
         Body.setColor('black');
         self.value='night';
     
-        links.setColor('blue')
+        links.setColor('black')
         }
     }
